@@ -9,15 +9,7 @@ $ git clone https://github.com/fazxid/node-google-translate
 $ npm install
 ```
 
-## Command
-
-node scrape '{storename}'
-
-```bash
-$ node scrape 'samsung.official'
-```
-
-## Declaration
+## Example
 
 ```js
 const shopeeScraper = require('./lib/node-shopee-scraper');
@@ -31,6 +23,14 @@ const scrape = new shopeeScraper({
 
 })
 
+```
+
+## Command
+
+node scrape '{storename}'
+
+```bash
+$ node scrape 'samsung.official'
 ```
 
 ## License
