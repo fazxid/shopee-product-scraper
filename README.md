@@ -13,7 +13,6 @@ $ npm install
 
 ```js
 const shopeeScraper = require('./lib/node-shopee-scraper');
-
 const scrape = new shopeeScraper({
     mainUrl : 'https://shopee.co.id/',
     userAgent : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36',
@@ -22,6 +21,17 @@ const scrape = new shopeeScraper({
     extract : ['data','image']
 
 })
+
+(async () => {
+    try {
+        let store = 'samsung.official'
+        await scrape.go(store)
+
+    } catch (err) {
+        console.log(err)
+    }
+
+})();
 
 ```
 
