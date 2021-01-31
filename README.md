@@ -5,7 +5,7 @@ Scrape Data & Images From Marketplace Shopee
 ## Installation
 
 ```bash
-$ git clone https://github.com/fazxid/node-google-translate
+$ git clone https://github.com/fazxid/shopee-product-scraper
 $ npm install
 ```
 
