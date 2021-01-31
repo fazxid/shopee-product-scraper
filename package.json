@@ -1,0 +1,27 @@
+{
+  "name": "Shopee Product Scraper",
+  "version": "0.1.0",
+  "description": "Scrape Data & Images From Marketplace Shopee",
+  "homepage": "https://github.com/fazxid/shopee-product-scraper",
+  "author": "Fazxid",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "puppeteer": "^5.5.0"
+  },
+  "keywords": [
+    "nodejs",
+    "marketplace",
+    "shopee",
+    "scraper"
+  ],
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "main": "./index.js",
+  "engines": {
+    "node": ">=15.7.0"
+  }
+}
