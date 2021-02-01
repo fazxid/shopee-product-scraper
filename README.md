@@ -35,7 +35,7 @@ const scrape = new shopeeScraper({
 
 ```
 
-## Command
+## Executing Shell Commands
 
 node scrape '{storename}'
 
