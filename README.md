@@ -45,4 +45,6 @@ $ node scrape 'samsung.official'
 
 ## License
 
-MIT
+[MIT][license-url]
+
+Copyright (c) 2020 Fazxid
